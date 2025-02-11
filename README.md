@@ -4,4 +4,4 @@
 
 **Level**: Intermediate
 
-**Database**: ' bankingSqlProj1 '
+**Database**: `bankingSqlProj1`
