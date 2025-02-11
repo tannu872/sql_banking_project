@@ -1,1 +1,1 @@
-# sql_banking_project
+# Comprehensive Banking Data Analysis with Advance SQL
