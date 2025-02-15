@@ -22,3 +22,11 @@ This project involves analyzing a multifaceted banking dataset, including tables
 
 ### Database Setup
 ![erdimg](https://github.com/tannu872/sql_banking_project/blob/24325454c757029464f450527df4dbc0d406ded4/erdupdated.png)
+**Tables**: Product Table, Department Table, Loan Table, HR Table, Branch Table, Customer Table, Collection Table, Deposit Table, Account Table and Business Persons Table. Each table includes relevant columns and relationships.
+**Data Modeling**:
+```sql
+Alter table Loan
+Add Constraint fk_Product
+Foreign Key (ProductID)
+References Products(ProductID)
+```
