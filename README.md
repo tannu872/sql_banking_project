@@ -21,4 +21,4 @@ This project involves analyzing a multifaceted banking dataset, including tables
 ## Project Structure
 
 ### Database Setup
-![bankingimg](https://github.com/tannu872/sql_banking_project/blob/c02c34f149f106faf4bd27cc02da9a4f2b729f53/image1.jpg)
+![erdimg](https://github.com/tannu872/sql_banking_project/blob/24325454c757029464f450527df4dbc0d406ded4/erdupdated.png)
