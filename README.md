@@ -79,3 +79,39 @@ Add Constraint fk_Branch
 Foreign Key (BranchID)
 References Branch(BranchID);
 ```
+
+## 1. Basic Data Retrival
+1. **Retrieve all columns from the Customer Table for customers with a credit score above 700.**
+```sql
+select * from Customer
+where creditscore > 700;
+```
+2.**List all loans from the Loan Table where the loan term exceeds 100 months.**
+```sql
+select * from Loan
+where loanterm > 100;
+```
+
+## 2. Joins and Relationships
+1. **Find the branch names and total loan amounts handled by each branch by joining the Branch Table and Loan Table.**
+```sql
+select b.BranchName, sum(l.LoanAmount) as Total_Loan_Amount
+from Branch as b
+left join Loan as l
+on b.branchid = l.branchid
+group by b.branchname;
+```
+2.**Display a list of all employees from the HR Table along with the branch name where they are assigned (use the Branch Table for the branch names).**
+```sql
+select e.employeeid, e.name, b.BranchName 
+from HR as e
+left join Branch as b
+on e.branchid = b.branchid;
+```
+3.**Retrieve the loan amount, loan date, and customer name by joining the Loan Table and Customer Table.**
+```sql
+select concat(c.FirstName,' ', c.LastName) as customersFullName , l.LoanAmount, l.LoanDate 
+from loan as l
+join customer as c
+on l.customerid = c.customerid;
+```
