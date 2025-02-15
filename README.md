@@ -17,3 +17,8 @@ This project involves analyzing a multifaceted banking dataset, including tables
 3. **Data Joining**: Linking tables to derive insights acrosss departments (e.g., associating branches with employees and customers).
 4. **Data Manipulation**: Practiced INSERT, UPDATE, and DELETE statements, simulating the management of banking records.
 5. **Advanced SQL**: Using subqueries, window functions, and complex joins to uncover detailed insights like average balances and branch rankings.
+
+## Project Structure
+
+### Database Setup
+![bankingimg](https://github.com/tannu872/sql_banking_project/blob/c02c34f149f106faf4bd27cc02da9a4f2b729f53/image1.jpg)
