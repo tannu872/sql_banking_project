@@ -225,3 +225,10 @@ delete from collection
 where outstandingbalance is null or outstandingbalance = 0;
 ```
 
+## Advance Questions
+1. ### Complex Joins: **Retrieve a list of all loan products and their corresponding departments. If a product isn’t handled by a department, include it with a NULL value for the department.**
+```sql
+select p.productid, p.productname, d.departmentname from products as p
+left join department as d
+on p.productname = any(string_to_array(d.ProductsHandled,','));
+```
