@@ -226,9 +226,89 @@ where outstandingbalance is null or outstandingbalance = 0;
 ```
 
 ## Advance Questions
-1. ### Complex Joins: **Retrieve a list of all loan products and their corresponding departments. If a product isn’t handled by a department, include it with a NULL value for the department.**
+1. **Complex Joins: Retrieve a list of all loan products and their corresponding departments. If a product isn’t handled by a department, include it with a NULL value for the department.**
 ```sql
 select p.productid, p.productname, d.departmentname from products as p
 left join department as d
 on p.productname = any(string_to_array(d.ProductsHandled,','));
+```
+2. **Window Functions: For each branch, rank the top three loans in terms of LoanAmount. Display the branch name, loan ID, amount, and ranking.**
+```sql
+with cte as (
+select b.branchid, b.branchname, l.loanid, l.loanamount, 
+row_number() over(partition by b.branchid order by l.loanamount desc) as rnk
+from branch as b
+join loan as l
+on b.branchid = l.branchid
+)
+select * from cte
+where rnk < 4;
+```
+3. **Aggregation with Filtering: Calculate the total deposit amount by branch and deposit type, but include only branches with a minimum of 100 deposits.**
+```sql
+select branchid, deposittype, sum(depositamount) as total_deposit_amount from deposit
+group by branchid, deposittype
+having count(branchid)>=100
+order by branchid;
+```
+4. **Correlated Subquery: Identify customers who have more than the average AccountBalance across all accounts in their branch.**
+```sql
+select * from customer as c
+join account as a
+on c.customeraccountnumber = a.accountnumber
+where a.accountbalance > (select avg(accountbalance) from account);
+```
+5. **Date Calculations: Find the average time (in days) between each LoanDate and its latest collection date, for loans that have a collection recorded.**
+```sql
+select avg(maxcollectiondate - loandate) as average_days_in_collection from (
+select l.loandate as loandate, max(c.collectiondate) as maxcollectiondate from loan as l
+join collection as c
+on l.loanid = c.loanid
+group by l.loandate
+order by l.loandate);
+```
+6. **Conditional Aggregates: For each loan product, calculate the total number of loans and the number of loans with a monthly repayment schedule.**
+```sql
+select productid,
+count(case when repaymentschedule = 'Monthly' then 1 end) as monthly_schedule,
+count(*) as total_loans
+from loan
+group by productid;
+```
+7. **Using CASE Statements: Write a query that categorizes customers based on CreditScore: “Excellent” (above 750), “Good” (650-750), “Average” (500-650), and “Poor” (below 500).**
+```sql
+select customerid, creditscore,
+case
+	when creditscore > 750 then 'Excellent'
+	when creditscore >= 650 and creditscore <= 750 then 'Good'
+	when creditscore >= 500 and creditscore < 650 then 'Average'
+	else 'Poor'
+end	as categories 
+from customer;
+```
+8. **Self-Join: Identify any branches that have the same TotalEmployees and TotalAssets as another branch. Display both branch names.**
+```sql
+select b.* from branch as b
+join branch as b1
+on b.totalemployees = b1.totalemployees and b.totalassets = b1.totalassets
+and b.branchname <> b1.branchname;
+```
+9. **Cte with Aggregates: Find the top 5 customers by AnnualIncome within each customer type. Display customer details, their type, and ranking within their type.**
+```sql
+with cte as (
+	select customerid, firstname, lastname, dob, customeraccountnumber, customertype, annualincome,
+	row_number() over(partition by customertype order by annualincome desc) as rnk
+	from customer)
+
+select * from cte
+where rnk < 6;
+```
+10. **Analytical Functions: For each ProductType in the Loan Table, calculate the cumulative total of LoanAmount over time, ordered by LoanDate. Display the cumulative sum along with each loan’s details.**
+```sql
+select loanid,
+productid,
+loandate,
+loanamount,
+sum(loanamount) over(partition by productid order by loandate) as cumulative_loan_amount
+from loan;
 ```
