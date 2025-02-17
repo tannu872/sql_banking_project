@@ -1,0 +1,101 @@
+EmployeeID,Name,DOB,DOJ,Status,ReasonForLeaving,BranchID,Designation,BranchLocation,Salary,PerformanceRating
+100,Patrick Mcpherson,1979-01-25,2020-08-26,Active,Career Change,6,Clerk,Johnsonview,105713,1.08
+101,Patrick Lee,1983-07-20,2020-08-25,Resigned,N/A,3,Clerk,Josephview,53345,2.85
+102,Margaret Sheppard,1980-12-05,2022-02-16,Resigned,Personal,9,Clerk,North Kurtmouth,108565,3.45
+103,Meghan Nolan,1990-05-23,2024-08-16,Resigned,Retirement,2,Assistant,Melaniemouth,40776,1.89
+104,Tyler Rose,1988-03-05,2021-10-01,Resigned,Career Change,4,Manager,Smithtown,86858,2.93
+105,Michael Barron,1968-06-11,2024-03-17,Active,Career Change,2,Officer,Johnsonstad,107598,4.07
+106,Jason Mcknight,1974-07-25,2023-01-14,Resigned,Career Change,8,Assistant,Littleside,86974,3.35
+107,Andrew Meyer,1983-06-04,2021-11-15,Resigned,Personal,2,Officer,South Brian,107720,2.25
+108,Logan Hamilton,1968-11-28,2023-10-10,Active,Personal,6,Manager,West Pennyside,30283,1.52
+109,Walter Sparks,1980-03-31,2022-07-29,Resigned,Personal,10,Clerk,Stephaniemouth,44301,2.92
+110,Wayne Porter,1999-01-20,2023-02-14,Resigned,Personal,3,Officer,West Katie,87768,2.53
+111,Julie Hernandez,1997-11-06,2024-09-09,Resigned,Retirement,4,Officer,Jordanfort,134710,1.63
+112,Loretta Beck,1985-01-25,2022-06-28,Resigned,N/A,6,Officer,East Crystal,113241,2.21
+113,Dwayne Marsh,1990-12-27,2022-01-28,Active,Personal,4,Manager,Port Christine,75607,3.09
+114,Andrew Campbell,1967-09-04,2024-06-24,Active,N/A,7,Assistant,East Dannyton,124378,2.11
+115,Amy Torres,1971-05-14,2022-04-11,Active,Personal,6,Clerk,Lake William,98472,4.42
+116,Matthew Smith,1995-11-15,2022-09-17,Active,Personal,4,Clerk,Rileyton,127971,2.51
+117,Gregory Campbell,1981-09-21,2024-08-09,Active,Retirement,8,Clerk,North Stephanie,130742,4.96
+118,Mary Mack,1965-11-11,2024-04-13,Resigned,Personal,1,Manager,Theresatown,48490,2.88
+119,Brandon Nelson,1966-01-07,2020-11-20,Active,Career Change,1,Assistant,Amberton,87995,3.82
+120,Christina Richards MD,1986-10-29,2020-06-16,Active,Retirement,8,Manager,West Daniel,134020,2.85
+121,John Gomez,1992-07-01,2022-12-12,Resigned,Retirement,8,Clerk,Wilsonland,148793,2.43
+122,Mandy Henderson,1981-07-29,2023-06-30,Active,Personal,5,Manager,East Mark,77029,3.66
+123,Annette Green,1977-06-19,2024-02-19,Resigned,Career Change,5,Manager,Mariachester,100138,3.71
+124,Eric Elliott,1986-08-03,2022-05-19,Active,Career Change,6,Officer,Lake Ronaldport,121903,2.14
+125,Erica Lane,1967-11-12,2020-08-31,Resigned,Retirement,2,Clerk,North Mark,66904,1.67
+126,Christina Taylor,1973-04-20,2021-09-24,Active,Career Change,2,Manager,Matthewchester,86762,3.92
+127,Elizabeth Miller,1977-09-20,2021-03-02,Active,Personal,6,Assistant,Thomasport,59088,2.81
+128,Lori Gardner,1986-04-02,2024-06-06,Resigned,Career Change,1,Manager,East Michealport,144000,4.12
+129,Shawn Kim,1968-01-24,2021-12-17,Resigned,Personal,2,Clerk,New Anthony,45871,3.87
+130,Jeremy Edwards,1979-11-09,2022-08-05,Resigned,Retirement,8,Assistant,Port Lawrence,143577,2.71
+131,Michelle Mcdonald,1997-05-29,2024-09-14,Active,Retirement,1,Assistant,Shelbyfurt,57498,3.4
+132,Jason Jenkins,1968-10-13,2021-10-16,Active,Personal,4,Manager,Lake Jessicafurt,126092,4.34
+133,Justin Bernard,1966-03-24,2021-01-16,Resigned,N/A,10,Clerk,North Susanbury,47657,3.45
+134,Peter Gilbert,1987-05-11,2023-03-02,Resigned,Retirement,8,Manager,Ryanville,107973,4.14
+135,David Hunt,1968-08-20,2021-03-17,Active,N/A,10,Manager,New Thomashaven,82326,1.3
+136,Joshua Cunningham,1992-02-23,2020-04-21,Active,Personal,2,Officer,Stewartborough,44124,2.22
+137,Pedro Long,1969-04-22,2021-12-31,Active,Retirement,7,Manager,Rhondamouth,140213,2.42
+138,Aaron Aguirre,1996-05-26,2023-09-29,Resigned,N/A,6,Officer,Port Katrina,87191,4.97
+139,Julia Brown,1972-08-18,2023-11-10,Resigned,Personal,8,Clerk,Jerrymouth,124600,4.62
+140,Ronald Santos,1982-03-25,2020-12-20,Resigned,N/A,8,Manager,Lake Johnchester,94615,4.6
+141,Brent Roberts,1966-08-30,2020-03-07,Active,Career Change,1,Clerk,Christopherside,143434,3.55
+142,Mr. Antonio Yang,1970-11-26,2024-03-30,Active,N/A,4,Manager,West Denisebury,141605,1.54
+143,Nancy Brown,1966-03-30,2020-04-14,Active,Career Change,9,Assistant,Hartmanbury,42053,1.52
+144,Charles Yang,1997-08-12,2022-04-19,Active,Career Change,8,Assistant,New John,59615,1.34
+145,Danny Lowe PhD,1998-05-13,2022-05-13,Resigned,Personal,7,Assistant,Craigberg,146180,4.35
+146,Eric Hays,1979-02-24,2023-04-08,Active,Career Change,8,Officer,Lauramouth,100220,1.89
+147,John Watts,1987-08-28,2022-07-22,Active,N/A,9,Officer,Davidchester,126457,1.84
+148,Aaron Munoz,1993-03-09,2020-09-19,Active,Personal,2,Officer,Wagnerberg,125967,3.54
+149,Brent Harris,1996-04-27,2020-07-04,Resigned,Personal,3,Manager,Chenborough,129439,3.41
+150,Ross Wallace,1984-06-20,2022-05-17,Resigned,N/A,2,Assistant,South Alexis,41223,2.68
+151,Bryan Sullivan,1979-04-27,2023-04-07,Active,Retirement,6,Clerk,South Joseside,88359,1.71
+152,Dr. Sarah Payne,1965-04-12,2024-03-19,Resigned,Retirement,6,Clerk,Newtonberg,51786,1.05
+153,Melanie Villarreal,1967-08-03,2020-02-28,Resigned,Career Change,2,Manager,Port Ryanburgh,98174,2.09
+154,Jessica Fields,1965-08-13,2023-04-03,Resigned,Personal,8,Manager,East Zacharyhaven,76551,1.9
+155,Robert Sandoval,1977-03-03,2023-04-10,Active,Retirement,5,Clerk,Strongstad,122940,1.73
+156,Patrick Payne,1989-08-21,2023-10-11,Resigned,Personal,10,Manager,South Heidi,49288,4.85
+157,Dylan Contreras,1965-01-19,2020-05-17,Resigned,N/A,6,Assistant,Lake Kelly,59751,1.21
+158,Katherine Contreras,1996-08-19,2021-11-28,Resigned,Personal,4,Assistant,Phyllismouth,89030,4.81
+159,Michael Rodriguez,1967-05-15,2021-10-01,Resigned,N/A,7,Officer,Lake Brandonstad,137432,1.87
+160,Jeffery Johnson,1990-03-02,2023-03-24,Resigned,Career Change,10,Manager,Lozanomouth,97658,2.16
+161,Justin Smith,1989-06-29,2021-07-26,Active,Career Change,5,Manager,Robertsfort,101314,2.5
+162,Matthew Barry,1972-05-05,2023-09-01,Resigned,N/A,2,Officer,Lake Isaac,76482,3.89
+163,Amanda Meadows,1993-01-23,2024-07-12,Active,Career Change,10,Officer,East Paulashire,46933,4.83
+164,Julie Sharp,1992-11-13,2020-06-11,Active,N/A,8,Manager,Emilymouth,42970,3.85
+165,William Howard,1973-03-13,2022-08-06,Active,Career Change,8,Assistant,Floresburgh,86634,2.83
+166,Kathy Bailey,1971-09-08,2020-04-07,Resigned,Personal,6,Assistant,Shirleyville,48728,1.64
+167,Jeanette Brown,1993-08-16,2024-08-09,Active,N/A,3,Manager,West Trevor,69646,3.96
+168,Heather Ball,1971-11-07,2022-12-16,Active,N/A,5,Officer,New Zacharyhaven,70982,3.59
+169,Mike Buchanan,1988-11-04,2020-03-21,Active,Retirement,8,Clerk,Mitchellfurt,110195,3.13
+170,Phillip Turner,1987-10-05,2022-11-10,Resigned,Personal,9,Manager,Katherineberg,94187,4.47
+171,Thomas Brewer,1976-12-31,2022-03-26,Resigned,Retirement,1,Officer,Port Sierraborough,57609,2.77
+172,John Hopkins,1987-03-04,2021-11-03,Resigned,Personal,8,Clerk,Stoneshire,74967,1.54
+173,Tammy Rowe,1993-07-11,2020-03-25,Resigned,Personal,5,Officer,Coryport,142645,4.47
+174,Beverly Nguyen,1967-10-06,2022-11-25,Active,Personal,5,Clerk,North Keith,65993,1.02
+175,Hannah Williamson,1980-01-11,2023-09-10,Active,N/A,10,Assistant,Gonzalesburgh,93385,4.9
+176,Andrew Christian,1979-08-12,2023-08-21,Resigned,N/A,4,Manager,Sheilaview,48306,2.19
+177,Brent Rodriguez,1970-01-30,2020-06-26,Active,Retirement,10,Assistant,East Elizabethberg,60976,4.06
+178,Karen Wolf,1964-07-03,2020-12-05,Active,N/A,7,Manager,East Andreahaven,72212,3.17
+179,Dr. Morgan Young,1979-04-12,2024-09-15,Resigned,Retirement,9,Clerk,North Carmen,123983,3.46
+180,Carrie Stafford,1991-12-06,2023-04-20,Active,Retirement,5,Assistant,New Amandaborough,57205,2.84
+181,Jennifer Brown,1966-12-08,2022-06-11,Active,Retirement,4,Manager,South Marissatown,81641,4.98
+182,Ashley Bradford,1964-11-01,2024-07-19,Active,Career Change,7,Officer,Jamesshire,31414,4.32
+183,Phillip Obrien,1980-10-29,2023-12-11,Resigned,Career Change,9,Clerk,Dennishaven,75697,3.18
+184,Tammy Morris,1967-09-10,2023-08-09,Resigned,N/A,6,Manager,Port Shawn,139749,4.15
+185,Jamie Zhang,1969-01-13,2024-05-31,Active,N/A,9,Manager,Lake Jasmineville,148298,1.61
+186,Christina King,1967-09-05,2022-03-19,Resigned,Retirement,1,Officer,Onealfort,33388,3.46
+187,Dustin Harris,1972-06-11,2021-05-20,Resigned,N/A,6,Clerk,Christopherberg,128667,2.21
+188,Robert Stokes,1993-08-31,2023-03-30,Active,Retirement,1,Clerk,Jessicaville,73508,3.25
+189,Kevin Soto,1976-02-10,2023-12-22,Active,N/A,3,Assistant,Lindabury,59087,4.83
+190,Christina Patrick,1983-01-19,2022-01-10,Resigned,N/A,5,Clerk,West Ericmouth,88004,4.03
+191,Heather Russell,1966-10-18,2021-02-13,Active,N/A,8,Manager,Shawnhaven,114956,2.44
+192,Andrea Lopez,1985-03-13,2020-02-17,Active,Personal,10,Assistant,Lake Haileyton,113856,2.7
+193,Susan May,1987-08-14,2022-05-22,Active,N/A,9,Manager,Garciahaven,58880,3.33
+194,Ronnie Hudson MD,1980-06-10,2022-05-02,Resigned,Personal,2,Officer,Jamesside,56224,1.08
+195,Luke Hansen,1983-09-20,2020-09-22,Active,Retirement,10,Officer,Lake Courtneybury,126294,4.66
+196,Austin Patterson,1972-08-25,2022-02-15,Active,Retirement,7,Manager,New Nicholas,83425,4.62
+197,Benjamin Miller,1990-11-22,2024-08-13,Resigned,N/A,3,Clerk,Lake James,61259,4.45
+198,Elizabeth Wilson,1996-05-25,2022-07-08,Resigned,Career Change,4,Assistant,Hernandezburgh,79604,4.97
+199,Kyle Rivera,1972-02-24,2022-11-14,Active,Career Change,10,Assistant,Campbellborough,91473,2.58

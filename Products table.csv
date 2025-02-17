@@ -1,0 +1,9 @@
+ProductID,ProductName,ProductType,InterestRate,ProcessingFee
+1,Home Loan,Loan,9.12,515
+2,Car Loan,Loan,10.35,1747
+3,Staff Car Loan,Loan,8.51,1956
+4,Personal Loan,Loan,9.64,1217
+5,Staff Loan,Loan,7.46,1459
+6,Loan Against Property (LAP),Loan,7.54,1023
+7,Commercial Loan,Loan,11.19,1779
+8,Two-Wheeler Loan,Loan,11.9,1339

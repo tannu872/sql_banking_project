@@ -1,0 +1,4 @@
+DepartmentID,DepartmentName,ProductsHandled,ManagerID,Budget
+1,Home Loan Department,"Home Loan, LAP",142,3049605
+2,Retail Department,"Car Loan, Personal Loan, Commercial Loan",142,1338331
+3,Staff Loan Department,"Staff Loan, Staff Car Loan",177,1357897
