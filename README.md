@@ -321,3 +321,13 @@ loanamount,
 sum(loanamount) over(partition by productid order by loandate) as cumulative_loan_amount
 from loan;
 ```
+
+
+
+## Project Takeaways:
+1. **Customer Insights**: Identified high-value customer segmants based on income and credit score.
+2. **Branch Analysis**: Ranked branches by assets and analyzed branch-specific performance metrics.
+3. **Loan and Deposit Analysis**: Provided insights into loan terms, repayment schedules, and interest rates, helping simulate banking decisions and risk assessments.
+
+
+# Thankyou
