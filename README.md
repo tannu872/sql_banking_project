@@ -226,7 +226,7 @@ where outstandingbalance is null or outstandingbalance = 0;
 ```
 
 ## Advanced SQL Operations
-1. **Complex Joins: Retrieve a list of all loan products and their corresponding departments. If a product isn’t handled by a department, include it with a NULL value for the department.**
+1. **Complex Joins: Retrieve a list of all loan products and their corresponding departments.**
 ```sql
 select p.productid, p.productname, d.departmentname from products as p
 left join department as d
