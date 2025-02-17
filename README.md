@@ -8,7 +8,7 @@
 
 This project involves analyzing a multifaceted banking dataset, including tables on loans, customers, deposits, branches, and HR data. The goal was to extract insights through SQL queries that simulate real-world banking analytics. Key aspects include calculating loan totals, identifying customer profiles, analyzing branch performance, and generating insights on deposits and collections.
 
-![bankingimg](https://github.com/tannu872/sql_banking_project/blob/f2a450126cf5b53bd497b8f6bcd44c51277b52a5/image1%20(1).jpg)
+![bankingimg](https://github.com/tannu872/sql_banking_project/blob/73ba7b2965f6e56492c207951fe9c902603abd59/sqlbankingprojectimg.jpeg)
 
 ## Objectives
 
